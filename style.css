@@ -1,0 +1,60 @@
+/* style.css */
+.container {
+   height: 890px;
+   margin: 10%;
+   padding: 5%;
+   background-image: url(./BilderCollage/MainBild.jpg);
+   background-size: cover
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 80px;
+    color: white;
+}
+
+.links {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    margin: 130px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.links li {
+    margin-bottom: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.links li a {
+    display: block;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.links li :hover {
+    background:rgb(19, 17, 17);
+    box-shadow: 0px 0px 10px  rgba(255,255,255,0.6);;
+}
+
+img{
+    position: relative;       
+    left: 400px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+body {
+    background-color: black;
+    background-size: auto;
+}
+
